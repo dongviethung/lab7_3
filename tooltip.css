@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+  
+
+  /* Styles for mobile */
+
+    body{
+		background-image: url("anhnen.jpg");
+		font-family: Arial;
+        padding-top: 70px;
+        color:#97534;
+        background-color: #eabfb9;
+		
+    }
+    form{
+        background-color: #b86b77;
+        width: 60%;
+        margin-top: 20px;
+        font-size: 100%;
+        padding: 25px;
+		border-radius: 10px;
+		background-image: url("anhnen3.jpg");
+    }
+h1{
+    font-size: 50px;
+    align-items: center;
+    padding-top: 10px;
+}
+h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+     main{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    }
+
+
+    input{
+        padding-left: 2px;
+        border: 1px solid #73BBC9;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .account-input{
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        margin-top:20px ;
+    }
+    .sub-button{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .radio-check{
+        display: flex ;
+        gap:20px
+    }
+    .check1{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .check1 input{
+        margin-top: 5px;
+    }
+    .check2 input{
+        margin-top: 5px;
+    }
+
+    .check2{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+/* CSS */
+.button-34 {
+    width: 150px;
+    height: 45px;
+  background: #f6cfca;
+  border-radius: 999px;
+  box-shadow: #4F709C 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.tooltip{
+    display: none;
+    position: absolute;
+    left:55%;
+    top: 28%;
+    height:25px;
+    background-color: #73BBC9;
+    padding: 10px;
+    border-radius: 5px;
+    color: #4F709B;
+}
+#togglePassword{
+    margin-top: 5px
+}
